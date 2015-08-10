@@ -86,6 +86,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var DDP_VERSION = "1";
 	var PUBLIC_EVENTS = [
+	// Protocol messages
+	"ping", "pong",
 	// Subscription messages
 	"ready", "nosub", "added", "changed", "removed",
 	// Method messages
